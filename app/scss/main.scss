@@ -1,0 +1,15 @@
+// layout vars
+$container-width: 1170px;
+$tooter-height: 50px;
+
+//colors
+$main-color: #ccc;
+$btn-color: #ff66cc;
+
+
+// import all settings file scss
+@import "app/libs/normalize-css/normalize";
+@import "app/scss/layout/settings";
+@import "app/scss/layout/fonts";
+@import "app/scss/layout/media";
+

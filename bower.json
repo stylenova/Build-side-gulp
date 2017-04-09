@@ -1,0 +1,27 @@
+{
+  "name": "123",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "add/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./dist/js/bootstrap.min.js",
+        "./dist/css/bootstrap.min.css",
+        "./dist/css/bootstrap-theme.min.css"
+      ]
+    }
+  }
+}
